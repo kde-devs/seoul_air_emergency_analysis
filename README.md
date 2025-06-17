@@ -6,9 +6,7 @@ This project explores the time-series correlation between PM2.5 levels and emerg
 서울시의 미세먼지(PM2.5) 농도와 응급실 방문 수 사이의 시계열적 상관관게를 분석한 프로젝트입니다.
 
 # Data Source | 데이터 출처
-- Seoul Open Data Plaza
-- Air Quality Monitoring Stations (Hourly PM2.5)
-- Emergency Room Visit Records (Daily Aggregation)
+
 
 # Methods | 분석 방법
 - Time-series alignment & smoothing
