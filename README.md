@@ -13,7 +13,7 @@ This project explores the time-series correlation between PM2.5 levels and emerg
   - 설명: 서울시 자치구별 월별 평균 PM2.5 농도 (2020–2021)
 
 - **서울시 응급실 이용자 수 (일별/자치구별)**
-  - 출처: [서울열린데이터광장 – 응급실 이용자 현황](https://data.seoul.go.kr/dataList/11034/L/2/datasetView.do)
+  - 출처: [서울열린데이터광장 – 응급실 이용자 현황](https://data.seoul.go.kr/dataList/11035/S/2/datasetView.do)
   - 설명: 자치구별 일자별 응급실 이용자 수 → 서울시 전체 기준으로 합산 예정
     
 # Methods | 분석 방법
