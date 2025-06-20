@@ -38,7 +38,7 @@ This project explores the time-series correlation between PM2.5 levels and emerg
 ## 응급실 일별 이용자 수 전처리
 
 - [전처리 노트북](https://github.com/kde-devs/seoul_air_emergency_analysis/blob/main/er_daily_seoul_2020_2021.ipynb)  
--[전처리 결과 CSV](https://github.com/kde-devs/seoul_air_emergency_analysis/blob/main/er_daily_seoul_2020_2021.csv)
+- [전처리 결과 CSV](https://github.com/kde-devs/seoul_air_emergency_analysis/blob/main/er_daily_seoul_2020_2021.csv)
 
 > 모든 전처리 코드는 수작업으로 작성되었으며, 반복 구조 특성상 자동 생성 코드로 오인될 수 있으나 실제 데이터 분석 목적에 따라 설계된 사용자 정의 코드입니다.
 
