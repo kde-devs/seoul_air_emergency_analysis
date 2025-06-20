@@ -5,6 +5,9 @@
 This project explores the time-series correlation between PM2.5 levels and emergency room visits in Seoul from 2020 to 2021
 서울시의 미세먼지(PM2.5) 농도와 응급실 방문 수 사이의 시계열적 상관관게를 분석한 프로젝트입니다.
 
+> ⚠️ This project was originally assigned as a team project, but due to limited team participation,
+> all data processing, analysis, visualization, and documentation were conducted independently.
+
 # Data Source | 데이터 출처
 
 
@@ -22,6 +25,3 @@ This project explores the time-series correlation between PM2.5 levels and emerg
  
 # File Structure | 파일 구성
 
-
-> ⚠️ This project was originally assigned as a team project, but due to limited team participation,
-> all data processing, analysis, visualization, and documentation were conducted independently.
