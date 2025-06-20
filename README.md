@@ -21,3 +21,7 @@ This project explores the time-series correlation between PM2.5 levels and emerg
 - Python, Pandas, Matplotlib, Seaborn, Statsmodels
  
 # File Structure | 파일 구성
+
+
+> ⚠️ This project was originally assigned as a team project, but due to limited team participation,
+> all data processing, analysis, visualization, and documentation were conducted independently.
