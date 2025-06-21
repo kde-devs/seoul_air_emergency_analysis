@@ -35,19 +35,24 @@ This project explores the time-series correlation between PM2.5 levels and emerg
 - [전처리 노트북](https://github.com/kde-devs/seoul_air_emergency_analysis/blob/main/pm25_daily_seoul_2020_2021.ipynb)  
 - [전처리 결과 CSV](https://github.com/kde-devs/seoul_air_emergency_analysis/blob/main/pm25_daily_avg_seoul_2020_2021.csv)
 
-> ⚠️ Note: The merged dataset used for visualization and analysis (PM2.5 + ER visits) is **not uploaded separately**.  
-> You can regenerate it by merging the two preprocessed files provided above using the `date` column:
->
-> ```python
-> merged_df = pd.merge(pm25_df, er_df, on="date", how="inner")
-> ```
-
 ## 응급실 일별 이용자 수 전처리
 
 - [전처리 노트북](https://github.com/kde-devs/seoul_air_emergency_analysis/blob/main/er_daily_seoul_2020_2021.ipynb)  
 - [전처리 결과 CSV](https://github.com/kde-devs/seoul_air_emergency_analysis/blob/main/er_daily_seoul_2020_2021.csv)
 
 > 모든 전처리 코드는 수작업으로 작성되었으며, 반복 구조 특성상 자동 생성 코드로 오인될 수 있으나 실제 데이터 분석 목적에 따라 설계된 사용자 정의 코드입니다.
+
+> ⚠️ 분석에 사용된 PM2.5 및 응급실 이용자 수 병합 데이터는 별도 파일로 업로드하지 않았습니다.  
+> 아래 두 전처리 결과 파일을 `date` 컬럼 기준으로 병합하여 재생성할 수 있습니다:
+>
+> - `pm25_daily_avg_seoul_2020_2021.csv`  
+> - `er_daily_seoul_2020_2021.csv`
+>
+> 예시 코드:
+>
+> ```python
+> merged_df = pd.merge(pm25_df, er_df, on="date", how="inner")
+> ```
 
 ## Visualizations | 시각화 결과
 - PM2.5 농도 및 응급실 방문 수 추이 (2020–2021)
