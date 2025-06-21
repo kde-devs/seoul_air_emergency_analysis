@@ -35,6 +35,13 @@ This project explores the time-series correlation between PM2.5 levels and emerg
 - [전처리 노트북](https://github.com/kde-devs/seoul_air_emergency_analysis/blob/main/pm25_daily_seoul_2020_2021.ipynb)  
 - [전처리 결과 CSV](https://github.com/kde-devs/seoul_air_emergency_analysis/blob/main/pm25_daily_avg_seoul_2020_2021.csv)
 
+> ⚠️ Note: The merged dataset used for visualization and analysis (PM2.5 + ER visits) is **not uploaded separately**.  
+> You can regenerate it by merging the two preprocessed files provided above using the `date` column:
+>
+> ```python
+> merged_df = pd.merge(pm25_df, er_df, on="date", how="inner")
+> ```
+
 ## 응급실 일별 이용자 수 전처리
 
 - [전처리 노트북](https://github.com/kde-devs/seoul_air_emergency_analysis/blob/main/er_daily_seoul_2020_2021.ipynb)  
