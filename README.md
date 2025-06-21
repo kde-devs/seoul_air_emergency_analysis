@@ -42,6 +42,20 @@ This project explores the time-series correlation between PM2.5 levels and emerg
 
 > 모든 전처리 코드는 수작업으로 작성되었으며, 반복 구조 특성상 자동 생성 코드로 오인될 수 있으나 실제 데이터 분석 목적에 따라 설계된 사용자 정의 코드입니다.
 
+## Visualizations | 시각화 결과
+- PM2.5 및 ER 방문 수 시계열
+- 월별 계절성 추이
+- 이상치 분석 등
+
+## Analysis Results | 분석 결과
+- 상관계수 및 지연 분석 결과 표
+- STL 분해 그래프
+- 주요 결과 요약
+
+## Insights & Discussion | 시사점 및 논의
+- 계절성 기반 ER 수요 예측 가능성
+- 정책 제언 등
+
 
 
 
